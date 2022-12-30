@@ -1,0 +1,31 @@
+#first-container{
+    margin-top: 10%;
+    animation:  slidedown 3s;
+}
+@keyframes slidedown{
+    from{
+      transform: translateY(-50%);
+    }
+    to{
+      transform: translateY(0);
+    }
+  }
+#second-container{
+    text-align: right;
+    padding: 5% 0;
+}
+h1{
+    padding:0 5%;
+}
+
+#first-container h1{
+    animation: slidein 3s;
+}
+@keyframes slidein{
+    from{
+      transform: translateX(50%);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }

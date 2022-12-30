@@ -1,0 +1,25 @@
+
+
+.navbar{
+    background-color: #141414;
+    
+}
+
+.my-nav-text{
+    color: #acacac;
+    font-weight:200;
+    font-family:'Poppins',sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+
+.nav-item:hover{
+    
+    border-bottom: 4px solid transparent;
+   border-image: linear-gradient(to right, #acacac, whitesmoke) 1;
+   border-radius: 5px;
+}
+.nav-link:hover{
+    color: white;
+}

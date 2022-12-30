@@ -1,0 +1,26 @@
+.inline-div{
+    display: inline-block;
+    padding:10px 5px;
+    
+}
+.inline-div a{
+    color: white;
+}
+.my-footer{
+    
+    width: 100%;
+   margin-top: 10px;
+    background-color: rgb(0,0,0,0.8);
+   
+}
+#copyright-text{
+    color: white;
+}
+i{
+   
+    padding: 20px 10px;
+    color: white;
+}
+hr{
+    color: whitesmoke;
+}

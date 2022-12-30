@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://localhost:8080/b2b/product-list -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>ECommerce App</title>
+  <link href="./ECommerce App_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" style="padding:10px;">ECommerce App</a>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="http://localhost:8080/b2b/add-product">Add Product</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="http://localhost:8080/b2b/product-list">Products </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="http://localhost:8080/b2b/my-stock">My Stock </a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <h1>List of Products</h1>
+    </div>
+    <table class="table table-striped table-hover table-border">
+        <thead class="table-dark">
+        <tr><th style="width:10%">#</th>
+        <th style="width:20%">Product Name</th>
+        <th style="width:30%">Product Type</th>
+        <th style="width:30%">Action</th>
+
+        </tr></thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Coca-Cola</td>
+            <td>Drink</td>
+            <td>
+                <form role="form" method="post" action="http://localhost:8080/b2b/product-list/1/add">
+                    <a class="btn btn-primary" type="submit">Add to stoc</a>
+                </form>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Fanta</td>
+            <td>Drink</td>
+            <td>
+                <form role="form" method="post" action="http://localhost:8080/b2b/product-list/2/add">
+                    <a class="btn btn-primary" type="submit">Add to stoc</a>
+                </form>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Pepsi</td>
+            <td>Drink</td>
+            <td>
+                <form role="form" method="post" action="http://localhost:8080/b2b/product-list/3/add">
+                    <a class="btn btn-primary" type="submit">Add to stoc</a>
+                </form>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Red Vine</td>
+            <td>Alcoholic Drink</td>
+            <td>
+                <form role="form" method="post" action="http://localhost:8080/b2b/product-list/4/add">
+                    <a class="btn btn-primary" type="submit">Add to stoc</a>
+                </form>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Lays Chips</td>
+            <td>Snack</td>
+            <td>
+                <form role="form" method="post" action="http://localhost:8080/b2b/product-list/5/add">
+                    <a class="btn btn-primary" type="submit">Add to stoc</a>
+                </form>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Orange</td>
+            <td>Fruit</td>
+            <td>
+                <form role="form" method="post" action="http://localhost:8080/b2b/product-list/6/add">
+                    <a class="btn btn-primary" type="submit">Add to stoc</a>
+                </form>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Bergembier</td>
+            <td>Alcoholic Drink</td>
+            <td>
+                <form role="form" method="post" action="http://localhost:8080/b2b/product-list/7/add">
+                    <a class="btn btn-primary" type="submit">Add to stoc</a>
+                </form>
+
+            </td>
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body></html>

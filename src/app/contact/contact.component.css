@@ -1,0 +1,49 @@
+.contact{
+    margin: 15%;
+    text-align: center;
+    line-height: 40px;
+    animation: slidedown 3s;
+}
+@keyframes slidedown{
+    from{
+      transform: translateY(-50%);
+    }
+    to{
+      transform: translateY(0);
+    }
+  }
+#first{
+    animation: slidein1 2s;
+}
+@keyframes slidein1{
+    from{
+      transform: translateX(-50%);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+
+
+#second{
+    animation: slidein2 3s;
+}
+@keyframes slidein2{
+    from{
+      transform: translateX(-50%);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+#third{
+    animation: slidein3 4s;
+}
+@keyframes slidein3{
+    from{
+      transform: translateX(-50%);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
