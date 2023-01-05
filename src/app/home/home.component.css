@@ -91,7 +91,19 @@
  }
  .image-box{
   padding: 2%;
+  
  }
+ .image-box:hover{
+  animation: grow1 0.5s ease-in-out;
+ }
+ @keyframes grow1 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
 
 
  #contact{
