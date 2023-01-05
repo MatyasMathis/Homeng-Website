@@ -1,25 +1,21 @@
 
 
-.navbar{
-    background-color: #141414;
-    
-}
+
 
 .my-nav-text{
-    color: #acacac;
+    color: #2a253a;
     font-weight:200;
     font-family:'Poppins',sans-serif;
     letter-spacing: 1px;
     
 }
 
-
-.nav-item:hover{
-    
-    border-bottom: 4px solid transparent;
-   border-image: linear-gradient(to right, #acacac, whitesmoke) 1;
-   border-radius: 5px;
-}
 .nav-link:hover{
-    color: white;
+    color: #2a253a;
+}
+.activ{
+    color: #2a253a;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(to right, #eac745,#eac745 ) 1;
+   border-radius: 5px;
 }

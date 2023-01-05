@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   name:string='';
 
   ngOnInit():void{
-   
+   window.scrollTo(0,0);
   }
 
 }

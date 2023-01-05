@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { ContactBarComponent } from './contact-bar/contact-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { TermsComponent } from './terms/terms.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AnimatedElementComponent } from './animated-element/animated-element.component';
 
 
 
@@ -23,6 +26,8 @@ import { ContactComponent } from './contact/contact.component';
     ContactBarComponent,
     FooterComponent,
     ContactComponent,
+    TermsComponent,
+    AnimatedElementComponent,
   
     
    
@@ -30,6 +35,7 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
    
   ],
   providers: [],
