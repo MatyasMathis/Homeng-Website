@@ -1,9 +1,13 @@
 #contact-navbar{
     height: 35px;
     
-    background-color: rgb(0,0,0);
+    background-color: #9A1D25;
 }
 .my-nav-text{
     color: whitesmoke;
+   
+}
+.my-nav-text:hover{
+    color:#eac745;
    
 }

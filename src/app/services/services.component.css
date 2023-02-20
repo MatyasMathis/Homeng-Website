@@ -1,0 +1,25 @@
+#services{
+    padding: 3% 0;
+}
+h1,hr{
+    padding: 2%;
+}
+.col-lg-6{
+    padding: 1%;
+    text-align: center;
+}
+.col-lg-6 p{
+    color:  #8a8a8a;
+    font-style:italic;
+}
+.my-button{
+    background-color: #2A253A;
+    color: white;
+    border: 1px solid white;
+    font-size: 2rem;
+   }
+   .my-button:hover{
+    background-color: #EAC745;
+    color: white;
+    animation: grow 0.5s ease-in-out;
+   }

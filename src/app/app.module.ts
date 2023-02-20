@@ -12,6 +12,9 @@ import { ContactComponent } from './contact/contact.component';
 import { TermsComponent } from './terms/terms.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AnimatedElementComponent } from './animated-element/animated-element.component';
+import { ServicesComponent } from './services/services.component';
+import { HoverCardComponent } from './hover-card/hover-card.component';
+
 
 
 
@@ -28,6 +31,8 @@ import { AnimatedElementComponent } from './animated-element/animated-element.co
     ContactComponent,
     TermsComponent,
     AnimatedElementComponent,
+    ServicesComponent,
+    HoverCardComponent,
   
     
    

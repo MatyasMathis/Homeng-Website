@@ -1,60 +1,100 @@
+  
+  
+  hr{
+    color: #9A1D25;
+    width: 50%;
+  }
   #intro-section{
-    padding-top: 3%;
+    
   }
   #intro-box{
-    padding: 8%;
+    /* padding: 8%; */
     text-align: center;
+    background-image: url('/assets/images/flat-lay-stationery-material-blueprint.jpg');
+    background-size: cover;
+    background-position: center;
+   
 
   }
   #intro-text{
     color: #111111;
     font-size: 70px;
-    padding: 5%;
-    animation: slidein 3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   
+    
     
   }
-  @keyframes slidein{
-    from{
-      transform: translateY(-50%);
-    }
-    to{
-      transform: translateY(0);
-    }
+ 
+ 
+  .top-card{
+    background-color: rgb(255, 255, 255,0.7);
   }
-  #intro-box p{
-    color: #8a8a8a;
-    padding: 5% 2%;
-    font-style: italic;
+  #name-and-moto{
+    text-align: left;
     
+    padding: 10% 0 25% 20%;
+    
+    
+    height: 100%;
+    width: auto;
+  }
+
+  #name-and-moto h1{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  #name-and-moto h4{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #9A1D25;
+  }
+  #name-and-moto p{
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
   }
  .my-button{
-  background-color: #2A253A;
+  background-color: #9A1D25;
   color: white;
-  border: 1px solid white;
+  border: 8px solid #9A1D25;
+  border-radius: 0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
  }
  .my-button:hover{
-  background-color: #EAC745;
-  color: white;
-  animation: grow 0.5s ease-in-out;
+  background-color:white;
+  color: #9A1D25;
+  
+  border: 8px solid #9A1D25;
+
  }
- @keyframes grow {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.2);
-  }
+ 
+.intro-image{
+  /* position: relative;
+  top: 50px;
+  box-shadow: 10px 10px 5px #888888; */
 }
 
-
  #services-section{
-  background-color:#2A253A ;
+  background-color:#9A1D25;
   text-align: center;
-  padding: 5%;
+  padding: 0 50px;
+  
+
+ }
+ #services-section div{
+  position: relative;
+  bottom: 30px;
+  
  }
  #services-section h1{
   color: white;
   font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
   
  }
  #services-section p{
@@ -66,9 +106,11 @@
  .my-card{
   border: 1pt solid white;
   border-radius: 10%;
-  background-color:#2A253A ;
+  background-color:#9A1D25 ;
   text-align: center;
   color: white;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
  }
  .card-space{
   padding: 2%;
@@ -110,8 +152,8 @@
   
    
     width: 100%;
-    height: 650px;
-    background-image: url('/assets/images/hand-construction-plans-with-yellow-helmet-drawing-tool.jpg');
+    height: 100%;
+    background-image: url('/assets/images/high-view-house-with-garden-keys-blueprint.jpg');
     background-size: cover;
     background-position: center;
   
@@ -119,13 +161,65 @@
   color: white;
  }
  #contact i{
-  color: #EAC745;
+  
  }
  .contact{
   padding: 5%;
+  padding-bottom: 0;
  }
  .content-contact{
-  background-color:#2A253A ;
+  background-color:#9A1D25 ;
   padding:10%;
   border-radius: 20%;
  }
+ .col-md-4{
+  padding: 2%;
+ }
+ #contact h1{
+  padding-top: 10%;
+  padding-bottom: 4%;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  font-size: 4.5rem;
+  font-family: 'Ubuntu', sans-serif;
+ }
+ .contact-item{
+  background-color:#9A1D25 ;
+  border-radius: 10%;
+  text-align: left;
+  padding: 8%;
+  margin: 3%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  /* height: 150px; */
+ }
+
+
+ /*why us PART*/
+
+#why-us{
+  padding: 5%;
+}
+#why-us h4{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #9A1D25;
+  padding: 1%;
+}
+#why-us h1{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 1%;
+}
+#why-us .row .row {
+  
+  padding: 3%;
+}
+#why-us .col-lg-5{
+  text-align: center;
+  background-image: url('/assets/images/high-view-house-with-garden-keys-blueprint.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+ 

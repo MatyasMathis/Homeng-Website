@@ -19,22 +19,16 @@
  
   color: white;
  }
- @keyframes slidedown {
-  from{
-    transform:translateY(-50%);
-  }
-  to{
-    transform:translateY(0%);
-  }
-  
-  
- }
+ 
  #contact i{
-  color: #EAC745;
+  color: white;
  }
  
  .content-contact{
-  background-color:#2A253A ;
+  background-color:#9A1D25;
   padding:10%;
   border-radius: 20%;
+ }
+ .agm-map{
+    width: 400px;
  }

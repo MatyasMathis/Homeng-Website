@@ -3,9 +3,9 @@
 
 
 .my-nav-text{
-    color: #2a253a;
+    color: black;
     font-weight:200;
-    font-family:'Poppins',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px;
     
 }
@@ -16,6 +16,6 @@
 .activ{
     color: #2a253a;
     border-bottom: 4px solid transparent;
-    border-image: linear-gradient(to right, #eac745,#eac745 ) 1;
+    border-image: linear-gradient(to right, #F02133,#9A1D25) 1;
    border-radius: 5px;
 }

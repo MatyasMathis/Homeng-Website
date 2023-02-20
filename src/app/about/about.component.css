@@ -1,31 +1,85 @@
 #first-container{
-    margin-top: 10%;
+    margin-top: 5%;
     animation:  slidedown 3s;
 }
-@keyframes slidedown{
-    from{
-      transform: translateY(-50%);
-    }
-    to{
-      transform: translateY(0);
-    }
-  }
+
 #second-container{
-    text-align: right;
+    
     padding: 5% 0;
 }
 h1{
     padding:0 5%;
 }
 
-#first-container h1{
-    animation: slidein 3s;
+
+
+  .my-button{
+    background-color: #2A253A;
+    color: white;
+    border: 1px solid white;
+   }
+   .my-button:hover{
+    background-color: #EAC745;
+    color: white;
+    animation: grow 0.5s ease-in-out;
+   }
+   @keyframes grow {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+
+  .col-lg-6 p{
+    font-style: italic;
+  }
+
+  .col-sm-6 p{
+    padding-bottom: 5%;
+  }
+
+  #staff{
+    background-color: #2A253A;
+    padding: 10%;
+    text-align: center;
+  }
+.col-lg-4{
+  padding: 5%;
 }
-@keyframes slidein{
-    from{
-      transform: translateX(50%);
-    }
-    to{
-      transform: translateX(0);
-    }
+
+  .staff-image-box{
+    text-align: center;
+    
+  }
+  .staff-image-box img{
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    bottom: 70px;
+  }
+  .staff-box{
+    background-color: white;
+    
+  }
+
+  .staff-box p{
+    font-size: 1rem;
+    font-style: italic;
+    color: #8a8a8a;
+  }
+
+  .staff-box i{
+    font-size: 2rem;
+   
+    color:#2A253A;
+    padding: 3% 3%;
+  }
+
+  .staff-box i:hover{
+    font-size: 2rem;
+   
+    color:#EAC745;
+    padding: 3% 3%;
   }
