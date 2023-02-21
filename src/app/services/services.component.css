@@ -1,25 +1,164 @@
-#services{
-    padding: 3% 0;
-}
-h1,hr{
-    padding: 2%;
-}
-.col-lg-6{
-    padding: 1%;
+#intro-box{
+    /* padding: 8%; */
     text-align: center;
-}
-.col-lg-6 p{
-    color:  #8a8a8a;
-    font-style:italic;
-}
-.my-button{
-    background-color: #2A253A;
-    color: white;
-    border: 1px solid white;
+    background-image: url('/assets/images/flat-lay-stationery-material-blueprint.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+   
+
+  }
+  #intro-text{
+    color: #111111;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   
+    
+    
+  }
+  .top-card{
+    background-color: rgb(255, 255, 255,0.7);
+  }
+  #name-and-moto{
+    text-align: left;
+    
+    padding: 10% 5% 10% 20%;
+    
+    
+    height: 100%;
+    width: auto;
+  }
+
+  #name-and-moto h1{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  #name-and-moto h4{
     font-size: 2rem;
-   }
-   .my-button:hover{
-    background-color: #EAC745;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #9A1D25;
+  }
+  #name-and-moto p{
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+  }
+ .my-button{
+  background-color: #9A1D25;
+  color: white;
+  border: 8px solid #9A1D25;
+  border-radius: 0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+ }
+ .my-button-white{
+   background-color: white;
+   color: #9A1D25;
+   border: 8px solid white;
+   border-radius: 0;
+   font-family: 'Rubik', sans-serif;
+   font-weight: bolder;
+  }
+ .my-button:hover{
+  background-color:white;
+  color: #9A1D25;
+  
+  border: 8px solid #9A1D25;
+
+ }
+ .my-button-white:hover{
+   background-color:#9A1D25;
+   color: white;
+   
+   border: 8px solid white;
+ 
+  }
+
+ #case{
+    padding: 6% 0;
+ }
+ #case h1{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   
+ }
+ 
+ #case p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: #575757;
+ }
+ 
+ #case .col-lg-5{
+    text-align: center;
+  background-image: url('/assets/images/servicii-case.jpeg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px 10px 10px rgba(60, 11, 15, 0.5);
+ }
+ #case .col-lg-7{
+    padding: 3%;
+ }
+
+
+ #acoperis{
+    padding: 10% 0;
+    background-color: #9A1D25;
     color: white;
-    animation: grow 0.5s ease-in-out;
-   }
+ }
+ #acoperis h1{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   
+ }
+ .titles{
+    padding: 5% 0 1% 0;;
+ }
+ #acoperis p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: rgb(221, 221, 220);
+ }
+ 
+ #acoperis .col-lg-5{
+    text-align: center;
+  background-image: url('/assets/images/servicii-acoperis.jpeg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px 10px 10px rgba(60, 11, 15, 0.5);
+ }
+ #acoperis .col-lg-7{
+    padding: 3%;
+ }
+ #fatade{
+   padding: 6% 0;
+}
+#fatade h1{
+   font-size: 2rem;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+  
+}
+
+#fatade p{
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 1rem;
+   color: #575757;
+}
+
+#fatade .col-lg-5{
+   text-align: center;
+ background-image: url('/assets/images/servicii-fatade.jpeg');
+ background-size: cover;
+ background-position: center;
+ box-shadow: 10px 10px 10px rgba(60, 11, 15, 0.5);
+}
+#fatade .col-lg-7{
+   padding: 3%;
+}

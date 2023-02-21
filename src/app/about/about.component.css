@@ -1,85 +1,105 @@
-#first-container{
-    margin-top: 5%;
-    animation:  slidedown 3s;
+#intro-box{
+  /* padding: 8%; */
+  text-align: center;
+  background-image: url('/assets/images/flat-lay-stationery-material-blueprint.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+ 
+
+}
+#intro-text{
+  color: #111111;
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+ 
+  
+  
+}
+.top-card{
+  background-color: rgb(255, 255, 255,0.7);
+}
+#name-and-moto{
+  text-align: left;
+  
+  padding: 10% 5% 10% 20%;
+  
+  
+  height: 100%;
+  width: auto;
 }
 
-#second-container{
-    
-    padding: 5% 0;
-}
-h1{
-    padding:0 5%;
+#name-and-moto h1{
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
+#name-and-moto h4{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #9A1D25;
+}
+#name-and-moto p{
+  
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+}
+.my-button{
+background-color: #9A1D25;
+color: white;
+border: 8px solid #9A1D25;
+border-radius: 0;
+font-family: 'Rubik', sans-serif;
+font-weight: bolder;
+}
+.my-button-white{
+ background-color: white;
+ color: #9A1D25;
+ border: 8px solid white;
+ border-radius: 0;
+ font-family: 'Rubik', sans-serif;
+ font-weight: bolder;
+}
+.my-button:hover{
+background-color:white;
+color: #9A1D25;
 
+border: 8px solid #9A1D25;
 
-  .my-button{
-    background-color: #2A253A;
-    color: white;
-    border: 1px solid white;
-   }
-   .my-button:hover{
-    background-color: #EAC745;
-    color: white;
-    animation: grow 0.5s ease-in-out;
-   }
-   @keyframes grow {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.2);
-    }
-  }
+}
+.my-button-white:hover{
+ background-color:#9A1D25;
+ color: white;
+ 
+ border: 8px solid white;
 
-  .col-lg-6 p{
-    font-style: italic;
-  }
-
-  .col-sm-6 p{
-    padding-bottom: 5%;
-  }
-
-  #staff{
-    background-color: #2A253A;
-    padding: 10%;
-    text-align: center;
-  }
-.col-lg-4{
-  padding: 5%;
+}
+#case{
+  padding: 6% 0;
+}
+#case h1{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+ 
 }
 
-  .staff-image-box{
-    text-align: center;
-    
-  }
-  .staff-image-box img{
-    border-radius: 50%;
-    height: 150px;
-    position: relative;
-    bottom: 70px;
-  }
-  .staff-box{
-    background-color: white;
-    
-  }
+#case p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  color: #575757;
+}
 
-  .staff-box p{
-    font-size: 1rem;
-    font-style: italic;
-    color: #8a8a8a;
-  }
-
-  .staff-box i{
-    font-size: 2rem;
-   
-    color:#2A253A;
-    padding: 3% 3%;
-  }
-
-  .staff-box i:hover{
-    font-size: 2rem;
-   
-    color:#EAC745;
-    padding: 3% 3%;
-  }
+#case .col-lg-5{
+  text-align: center;
+background-image: url('/assets/images/about-homeng.jpeg');
+background-size: cover;
+background-position: center;
+box-shadow: 10px 10px 10px rgba(60, 11, 15, 0.5);
+}
+#case .col-lg-7{
+  padding: 3%;
+}
